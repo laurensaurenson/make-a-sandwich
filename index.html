@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Sandwich</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <label for="meatChoice">Choose Yo Meat:
+    <select name="meatChoice" id="meat-chooser">
+      <option value=" " disabled selected>Choose...</option>
+      <option value="turkey">Turkey</option>
+      <option value="ham">Ham</option>
+      <option value="salami">Salami</option>
+      <option value="bacon">Bacon</option>
+      <option value="none">None</option>
+    </select>
+  </label>
+  <label for="cheeseChoice">Choose Yo Cheese:
+    <select name="cheseChoice" id="cheese-chooser">
+      <option value=" " disabled selected>Choose...</option>
+      <option value="cheddar">Cheddar</option>
+      <option value="swiss">Swiss</option>
+      <option value="havarti">Havarti</option>
+      <option value="provolone">Provolone</option>
+      <option value="none">None</option>
+    </select>
+  </label>  
+  <label for="vegChoice">Choose Yo Veg:
+    <select name="vegChoice" id="veg-chooser">
+      <option value=" " disabled selected>Choose...</option>
+      <option value="sprouts">Sprouts</option>
+      <option value="lettuce">Lettuce</option>
+      <option value="tomato">Tomato</option>
+      <option value="peppers">Peppers</option>
+      <option value="none">None</option>
+    </select>
+  </label>
+  <label for="breadChoice">Choose Yo Bread:
+    <select name="breadChoice" id="bread-chooser">
+      <option value=" " disabled selected>Choose...</option>
+      <option value="white">White</option>
+      <option value="wheat">Wheat</option>
+      <option value="french">French</option>
+      <option value="rye">Rye</option>
+      <option value="none">None</option>
+    </select>
+  </label>
+  <label for="condChoice">Choose Yo Condiment:
+    <select name="condChoice" id="cond-chooser">
+      <option value=" " disabled selected>Choose...</option>
+      <option value="mustard">Mustard</option>
+      <option value="ketchup">Ketchup</option>
+      <option value="pickles">Pickles</option>
+      <option value="hotSauce">Hot Sauce</option>
+      <option value="none">None</option>
+    </select>
+  </label>
+  <button type="submit" id="submitOrder">Submit Order</button>
+  <div id="final-order"></div>
+  <!-- JAVASCRIPT LINKS -->
+  <script src="javascripts/SandwichMaker.js"></script>
+  <script src="javascripts/meat.js"></script>
+  <script src="javascripts/cheese.js"></script>
+  <script src="javascripts/veggie.js"></script>
+  <script src="javascripts/condiments.js"></script>
+  <script src="javascripts/bread.js"></script>
+  <script src="javascripts/DOMhandler.js"></script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+label {
+  display: block;
+  margin: 15px;
+}
+
+#finalOrder {
+  background-color: tomato;
+  height: 30px;
+}
